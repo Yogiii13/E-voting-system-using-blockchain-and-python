@@ -25,6 +25,9 @@ This project uses a custom blockchain to:
 - Proof-of-Work consensus
 - Encrypted voting system
 - Unique user tokens
+- Modern Web UI (Flask)
+- Desktop GUI (Tkinter)
+- Comprehensive Unit Tests
 
 ## Tech Stack
 
