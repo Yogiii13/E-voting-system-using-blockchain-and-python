@@ -1,0 +1,14 @@
+# E-voting System Requirements
+
+# Web Framework
+Flask==2.3.3
+
+# Standard library modules used (no installation needed):
+# - tkinter (GUI)
+# - socket (networking)
+# - hashlib (cryptography/hashing)
+# - json (data serialization)
+# - time (timestamps)
+# - pathlib (file handling)
+# - unittest (testing)
+
