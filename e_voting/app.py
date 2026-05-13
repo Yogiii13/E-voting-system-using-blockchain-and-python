@@ -38,6 +38,14 @@ def cast_vote():
 
     vote_data = {'constituency': constituency, 'candidate_id': candidate_id}
     blockchain.new_vote(voter_id, vote_data)
+    
+    # Mine the block and add it to the chain
+    last_block = blockchain.chain[-1] if blockchain.chain else None
+    last_proof = last_block.get('proof', 100) if last_block else 100
+    proof = blockchain.proof_of_work(last_proof)
+    previous_hash = blockchain.hash(last_block) if last_block else '1'
+    blockchain.new_block(proof, previous_hash)
+    
     blockchain.increment_candidate_votes(constituency, candidate_id)
     blockchain.voter_ids.add(voter_id)
 
@@ -71,8 +79,8 @@ def commission_view():
     
     result = blockchain.election_commission_view(login_id, constituency)
     
-    if 'Access denied' in result:
-        return jsonify({'success': False, 'error': result}), 403
+    if 'error' in result:
+        return jsonify({'success': False, 'error': result['error']}), 403
     
     return jsonify({'success': True, 'data': result})
 

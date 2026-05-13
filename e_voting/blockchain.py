@@ -70,16 +70,28 @@ class Blockchain:
 
     def election_commission_view(self, login_id, constituency):
         if login_id != '55':
-            return 'Access denied. Invalid login ID.'
+            return {'error': 'Access denied. Invalid login ID.'}
 
         if constituency not in self.candidates:
-            return f'No votes recorded for constituency: {constituency}'
+            return {'error': f'No votes recorded for constituency: {constituency}'}
 
         votes = self.candidates[constituency]
-        result = f'Total votes for constituency {constituency}:\n'
+        results = []
+        total_votes = 0
+        
         for candidate_id, candidate_info in votes.items():
-            result += f'Candidate {candidate_id}: {candidate_info["name"]} - Votes: {candidate_info["votes"]}\n'
-        return result
+            results.append({
+                'candidate_id': candidate_id,
+                'name': candidate_info['name'],
+                'votes': candidate_info['votes']
+            })
+            total_votes += candidate_info['votes']
+        
+        return {
+            'constituency': constituency,
+            'total_votes': total_votes,
+            'candidates': results
+        }
 
     def view_blockchain(self):
         return self.chain
