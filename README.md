@@ -1,6 +1,6 @@
 # 🗳️ Secure Blockchain Voting System
 
-A robust and tamper-proof e-voting system built using **blockchain technology** to ensure transparency, security, and integrity in the voting process. This project demonstrates real-world blockchain concepts including proof-of-work consensus, cryptographic hashing, and immutable ledger technology.
+A robust and tamper-proof e-voting system built using **blockchain technology** to ensure transparency, security, and integrity in the voting process. This project demonstrates real-world blockchain c[...]
 
 ## 🎯 Problem Statement
 
@@ -438,10 +438,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [SHA-256 Documentation](https://en.wikipedia.org/wiki/SHA-2) - Cryptography
 - [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) - Consensus mechanism
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Yogiii13** 
-**Sojwal27**
+- **Yogiii13** - [GitHub Profile](https://github.com/Yogiii13) - Blockchain Core & Backend Implementation
+- **Sojwal27** - [GitHub Profile](https://github.com/Sojwal27) - UI Design & Frontend Development, Backend Support
 
 ## 📞 Support
 
