@@ -3,7 +3,7 @@
 A secure, tamper-resistant e-voting prototype implemented in Python using a simple proof-of-work blockchain. It demonstrates voter anonymity with SHA-256 hashing, prevents double-voting, and includes web and desktop interfaces for casting, auditing, and viewing election results.
 
 <!-- Demo image preview -->
-[![Demo Image](demo/Image.svg)](demo/Image.svg)
+![Project Screenshot](demo/Image.png)
 
 ## 🎯 Problem Statement
 
