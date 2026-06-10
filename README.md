@@ -109,6 +109,15 @@ Block N (Vote N) ← Chain integrity verified
 
 ## 🚀 Getting Started
 
+### Video Project 1
+A demo video for Video Project 1 is included in the repository at `demo-video/Video Project 1.mp4`. It shows the project workflow and how the system operates end-to-end.
+
+Preview (click to play):
+
+[![Video Project 1 thumbnail](images/image.png)](demo-video/Video%20Project%201.mp4)
+
+Place a thumbnail image at `images/image.png` (add the file to the repository) to show the preview above. If you don't have a thumbnail yet, you can use a screenshot saved to that path.
+
 ### Prerequisites
 
 - Python 3.7+
