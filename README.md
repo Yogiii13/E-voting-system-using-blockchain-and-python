@@ -1,6 +1,9 @@
 # 🗳️ Secure Blockchain Voting System
 
-A robust and tamper-proof e-voting system built using **blockchain technology** to ensure transparency, security, and integrity in the voting process. This project demonstrates real-world blockchain c[...]
+A secure, tamper-resistant e-voting prototype implemented in Python using a simple proof-of-work blockchain. It demonstrates voter anonymity with SHA-256 hashing, prevents double-voting, and includes web and desktop interfaces for casting, auditing, and viewing election results.
+
+<!-- Demo image preview -->
+[![Demo Image](demo/Image.png)](demo/Image.png)
 
 ## 🎯 Problem Statement
 
