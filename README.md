@@ -1,6 +1,9 @@
 # 🗳️ Secure Blockchain Voting System
 
-A robust and tamper-proof e-voting system built using **blockchain technology** to ensure transparency, security, and integrity in the voting process. This project demonstrates real-world blockchain c[...]
+A secure, tamper-resistant e-voting prototype implemented in Python using a simple proof-of-work blockchain. It demonstrates voter anonymity with SHA-256 hashing, prevents double-voting, and includes web and desktop interfaces for casting, auditing, and viewing election results.
+
+<!-- Demo image preview -->
+[![Demo Image](demo/Image.png)](demo/Image.png)
 
 ## 🎯 Problem Statement
 
@@ -108,6 +111,15 @@ Block N (Vote N) ← Chain integrity verified
 ```
 
 ## 🚀 Getting Started
+
+### Video Project 1
+A demo video for Video Project 1 is included in the repository at `demo-video/Video Project 1.mp4`. It shows the project workflow and how the system operates end-to-end.
+
+Preview (click to play):
+
+[![Video Project 1 thumbnail](images/image.png)](demo-video/Video%20Project%201.mp4)
+
+Place a thumbnail image at `images/image.png` (add the file to the repository) to show the preview above. If you don't have a thumbnail yet, you can use a screenshot saved to that path.
 
 ### Prerequisites
 
