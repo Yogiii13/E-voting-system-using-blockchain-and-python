@@ -440,7 +440,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Author
 
-**Yogiii13** - Blockchain & E-voting System Developer
+**Yogiii13** 
+**Sojwal27**
 
 ## 📞 Support
 
